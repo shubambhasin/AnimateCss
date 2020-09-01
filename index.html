@@ -25,6 +25,20 @@
 
 </head>
 
+<style type="text/css">
+	
+	.ev-c
+	{
+		text-align: center;
+
+	}
+
+	.rad
+	{
+		border-radius: 10px;
+	}
+</style>
+
 <body onload="pageLoaded()">
 
 
@@ -45,6 +59,58 @@
 
 	        </div>
 	    </div>
+
+	    <nav class="navbar rad navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#b-entrance">Bouncing entrance </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#b-exit">Bouncing exits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#f-entrance">Fading Entrances</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#f-exit">Fading Exits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" style="margin-top: 10px;" href="#f-flippers">Flippers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" style="margin-top: 10px;" href="#l-lightspeed">LightSpeed</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#r-entrance">Rotating Entrances</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#r-exits">Rotating Exits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#s-entrance">Sliding Entrances</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#s-exits">Sliding Exits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#z-entrance">Zoom Entrances</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#z-exits">Zoom Exits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-sm ev-c" href="#s-special">Special</a>
+      </li>
+
+      
+    </ul>
+  </div>
+</nav>
 
 	   
 	    <div class="imgtop">
@@ -128,7 +194,7 @@
 
 	    	<div class="imgtop">
 
-	    		<h2 class="h2font TextCenter">Bouncing Entrances</h2>
+	    		<h2 class="h2font TextCenter" id="b-entrance">Bouncing Entrances</h2>
 
 	    	</div>
 
@@ -169,7 +235,7 @@
 	    	<!-- ############################bouncing exits######################################## -->
 
 	    	<div class="imgtop">
-	    		<h2 class="h2font TextCenter">Bouncing Exits</h2>
+	    		<h2 class="h2font TextCenter" id="b-exit">Bouncing Exits</h2>
 	    	</div>
 
 
@@ -209,7 +275,7 @@
 	    <!-- ############################Fading entrances############################################# -->
 
 	    <div class="imgtop">
-	    	<h2 class="h2font TextCenter">Fading Entrances</h2>
+	    	<h2 class="h2font TextCenter" id="f-entrance">Fading Entrances</h2>
 	    </div>
 
 	    <div class="row">
@@ -269,7 +335,7 @@
 
 	    <div class="imgtop">
 
-	    	<h2 class="h2font TextCenter">Fading Exits</h2>
+	    	<h2 class="h2font TextCenter" id="f-exit">Fading Exits</h2>
 	    	
 	    </div>
 
@@ -328,7 +394,7 @@
 <!-- #################################flippers###################################################### -->
              
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Flippers </h2>
+             	<h2 class="h2font TextCenter" id="f-flippers">Flippers </h2>
              </div>
 
              <div class="row">
@@ -366,7 +432,7 @@
              <!-- ###########################Lightspeed##################################### -->
 
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Lightspeed</h2>
+             	<h2 class="h2font TextCenter" id="l-lightspeed">Lightspeed</h2>
              </div>
 
              <div class="row">
@@ -390,7 +456,7 @@
              <!-- #############################Rotating entrances#################################### -->
 
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Rotating Entrances</h2>
+             	<h2 class="h2font TextCenter" id="r-entrance">Rotating Entrances</h2>
              </div>
 
              <div class="row">
@@ -429,7 +495,7 @@
              <!-- ######################rotating exits######################################## -->
 
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Rotating Exits</h2>
+             	<h2 class="h2font TextCenter" id="r-exits">Rotating Exits</h2>
              </div>
 
              <div class="row">
@@ -467,7 +533,7 @@
              <!-- ######################Sliding entrances######################################### -->
 
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Sliding Entrances</h2>
+             	<h2 class="h2font TextCenter" id="s-entrance">Sliding Entrances</h2>
              </div>
 
              <div class="row">
@@ -500,7 +566,7 @@
              <!-- ####################Sliding exits####################################### -->
 
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Sliding Exits</h2>
+             	<h2 class="h2font TextCenter" id="s-exit">Sliding Exits</h2>
              </div>
 
              <div class="row">
@@ -530,7 +596,7 @@
                 <hr>
 <!-- ############################Zoom Entrances############################################## -->
                 <div class="imgtop">
-             	  <h2 class="h2font TextCenter">Zoom Entrances</h2>
+             	  <h2 class="h2font TextCenter" id="z-entrance">Zoom Entrances</h2>
                 </div>
 
                 <div class="row">
@@ -566,7 +632,7 @@
              <!-- ####################Zoom exits############################################## -->
 
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Zoom Exits</h2>
+             	<h2 class="h2font TextCenter" id="z-exit">Zoom Exits</h2>
              </div>
 
              <div class="row">
@@ -602,7 +668,7 @@
              <!-- #######################Specials######################### -->
 
              <div class="imgtop">
-             	<h2 class="h2font TextCenter">Specials</h2>
+             	<h2 class="h2font TextCenter" id="s-special">Specials</h2>
              </div>
 
              <div class="row">
@@ -648,6 +714,9 @@
 		    </div>
 
 			<hr>
+
+<a href="https://www.like4like.org/?ref=Shubambhasin6" title="Free Facebook Likes"><img width="300" height="221" title="Free Facebook Likes" src="https://www.like4like.org/img/banners/like4like-how-it-works-clothes-hooks-300-211.jpg" alt="Free Facebook Likes" /></a>
+
 
 			<p class="TextCenter"><b>Copyright. All Rights Reserved</b></p>
 
